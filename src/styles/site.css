@@ -14,19 +14,19 @@
 
 /* ── Palette ────────────────────────────────────────────────────────────────
    Ported from the legacy gallery's own SCSS variables (the legacy env key for
-   Landscapes is `dca`, not `landscapes`), plus the shared MWNF Galleries values.
+   Landscapes is `lan`), plus the shared MWNF Galleries values.
 
-   Landscapes is its own brand — olive/khaki where amulets is terracotta — so
+   Landscapes is its own brand — each legacy gallery had its own palette — so
    nothing here is shared with a sibling gallery. --theme-dark-rgb is the same
    colour as --theme-dark in a form the translucent overlays can take an alpha
    on, so a palette change never has to be chased into a component. */
 :root {
-  --theme-dark:        #504819;  /* banner, header, footer */
-  --theme-dark-rgb:    80, 72, 25;
-  --theme-medium-dark: #6b612b;  /* dark menu items */
-  --theme-medium:      #7e743e;  /* text background, search button */
-  --theme-light:       #91864d;  /* light menu items */
-  --background-color:  #fffff0;  /* page background */
+  --theme-dark:        #26434a;  /* banner, header, footer */
+  --theme-dark-rgb:    38, 67, 74;
+  --theme-medium-dark: #4e7680;  /* dark menu items */
+  --theme-medium:      #688f99;  /* text background, search button */
+  --theme-light:       #85a0a7;  /* light menu items */
+  --background-color:  #d6e9ee;  /* page background */
 
   --shadow-grey:  #707070;
   --link-blue:    #0000ff;
