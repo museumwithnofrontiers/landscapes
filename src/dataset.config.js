@@ -4,18 +4,6 @@ import { galleryConfig } from '@museumwnf/viewer-layout/dxa'
 // menu and legacy redirects are the family's (`galleryConfig`,
 // @museumwnf/viewer-layout/dxa). What is this gallery's own is below.
 
-// The source-database chip's colour, per project: one of
-// @museumwnf/viewer-layout's `mwnf-chip--<name>` classes for every project id
-// the package's `manifest.projects` carries.
-export const projectColors = {
-  '0f031e22-6dc6-5ce6-b94b-9bb88345140c': 'mwnf-chip--AWE', // Sharing History
-  '61c122ac-ea86-5462-8bab-6b86138c49b2': 'mwnf-chip--ISLandEPM', // Discover Islamic Art
-  '76eaf6c2-8025-53bc-9e39-106803a3917e': 'mwnf-chip--DBA', // Discover Baroque Art
-  '928f5e0d-53e3-5f53-b9c2-5af389c30dd4': 'mwnf-chip--ISLandEPM', // Explore Islamic Art Collections — shares Discover Islamic Art's colour
-  'ad963031-4a8c-5d06-b797-b7cfc772e3c0': 'mwnf-chip--DGA', // Discover Glass Art
-  'dcf7b4d2-03c8-568a-8209-2817950fe05e': 'mwnf-chip--DCA', // Discover Carpet Art
-  'e08d1c71-8cff-5fe9-b480-2ae6c530b732': 'mwnf-chip--EXH', // The Hijaz Railway
-}
 
 // The projects whose item sheets still carry legacy's Explore-partner notice.
 export const noticeProjects = [
@@ -45,7 +33,6 @@ export default galleryConfig({
   // together, and with the domain.
   origin: 'https://museumwithnofrontiers.github.io/landscapes',
 
-  projectColors,
   noticeProjects,
 
   // The credits page's body.
